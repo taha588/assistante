@@ -1,0 +1,55 @@
+# ملفات Node.js
+# Fichiers Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ملفات البناء
+# Fichiers de build
+dist/
+build/
+.vite/
+
+# متغيرات البيئة (تحتوي على مفاتيح حساسة)
+# Variables d'environnement (contiennent des clés sensibles)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ملفات المحرر
+# Fichiers d'éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ملفات النظام
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ملفات السجلات
+# Fichiers de logs
+*.log
+logs/
+
+# ملفات مؤقتة
+# Fichiers temporaires
+.tmp/
+.temp/
+*.tmp
+*.temp
+
+# ملفات التغطية
+# Fichiers de couverture
+coverage/
+.nyc_output/
+
+# ملفات الاختبار
+# Fichiers de test
+.cache/
